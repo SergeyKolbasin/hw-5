@@ -1,9 +1,4 @@
-/* Установка автоинкремента на идентификатор */
-ALTER TABLE `gallery`
-  MODIFY `id` smallint(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
-COMMIT;
-
-/* Наполнение данными таблицы */
+/* Наполнение данными таблицы галереи */
 INSERT INTO `gallery` (`id`, `url`, `size`, `name`, `description`, `views`) VALUES
     (1, 'img/1.jpg', 170934, 'Дельфин', NULL, 0),
     (2, 'img/2.jpg', 98882, 'Лиса', NULL, 0),
