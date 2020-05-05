@@ -1,8 +1,5 @@
 <div class="news-item">
-    <h3>№{{ID}}: {{TITLE}}</h3>
-    <div>{{DATE_CREATE}}</div>
-    <!--
-        <img src="{{IMAGE}}" alt="{{TITLE}}" width="100">
-    -->
+    <h4>{{ID}}. {{TITLE}}</h4>
+    <div>{{DATE}}</div>
     <div>{{CONTENT}}</div>
 </div>

@@ -1,9 +1,13 @@
 <?php
     require_once '../config/config.php';
     
-    // Отображение новостей
+    $arrayNews = [];                                    // Массив новостей
+    $arrayNews = getNews();                             // Формирование массива новостей из БД
+    $newsContent = renderNews($arrayNews);
+    
+    // Отображение новостей при помощи шаблона
     echo render(TEMPLATES_DIR . 'news.tpl', [
         'title'     =>  'Новости',
         'head'      =>  'Горячие новости',
-        'content'   =>  'Здесь будут новости сайта'
+        'content'   =>  $newsContent
     ]);

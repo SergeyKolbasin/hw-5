@@ -20,3 +20,5 @@
     require_once ENGINE_DIR . 'functions.php';          // Общие функции
     require_once ENGINE_DIR . 'gallery.php';            // Функции работы с галереей
     require_once ENGINE_DIR . 'db.php';                 // Функции работы с БД
+    require_once ENGINE_DIR . 'news.php';               // Функции работы с новостями
+

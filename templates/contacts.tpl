@@ -14,7 +14,7 @@
 			<li><a href="/news.php">Новости</a></li>
 		</ul>
 	</header>
-	<h4>{{H4}}</h4>
+	<h3><i>{{H4}}</i></h3>
 	<div>{{CONTENT}}</div>
 </body>
 </html>
