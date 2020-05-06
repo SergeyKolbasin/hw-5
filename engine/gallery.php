@@ -50,7 +50,7 @@ function getImage($id)
 }
 
 // Функция возвращает информацию о фото из БД по его id
-function showImage($id)
+function renderImage($id)
 {
     $id = (int)$id;                                             // Преобразуем id в число
     $image = getImage($id);                                     // Получаем информацию о фото
