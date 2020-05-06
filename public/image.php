@@ -1,5 +1,6 @@
 <?php
 //  Отображение картинки по ее id
+    
     require_once '../config/config.php';
     
     $id = isset($_GET['id']) ? $_GET['id'] : false;         // Получение id из адресной строки браузера
