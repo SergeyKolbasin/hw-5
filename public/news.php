@@ -1,5 +1,5 @@
 <?php
-    require_once '../config/config.php';
+    require_once __DIR__ . '/../config/config.php';
     
     $arrayNews = [];                                    // Массив новостей
     $arrayNews = getNews();                             // Формирование массива новостей из БД

@@ -1,5 +1,5 @@
 <?php
-    require_once '../config/config.php';
+    require_once __DIR__ . '/../config/config.php';
     // Отображение главной страницы сайта
     echo render(TEMPLATES_DIR . '/index.tpl', [
             'title'     => 'Фото-зоопарк',

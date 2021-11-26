@@ -2,7 +2,7 @@
 /*
  * Функции работы с галереей
  */
-require_once '../config/config.php';
+require_once __DIR__ . '/../config/config.php';
 
 // Функция формирует и возвращает HTML-код отображения галереи
 function renderGallery(
