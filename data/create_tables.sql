@@ -1,5 +1,5 @@
 /* Таблица фотографий */
-USE gallery;
+USE jetsaus;
 CREATE TABLE gallery (
 	id smallint unsigned not null auto_increment,		    # id фотографии
 	url varchar(255) not null,								# url
